@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.7.6.1 (2012-07-09)
+--------------------
+
+- Fix computed widget, use getParentNode to get the parent object instead of aq_parent,
+  like in field.pt (avoid Unauthorized error)
+
 1.7.6 - 2011-05-21
 ------------------
 
